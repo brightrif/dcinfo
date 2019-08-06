@@ -1,11 +1,12 @@
 from django.contrib import admin
 
 # Register your models here.
-from . models import servertype,center, bladeinfo, bladechassis, serverinfo, esxi
-
+from . models import dataCenterModel,vendorModel,rackModel,deviceModel,serverModel,serverVirtualModel,networkModel
 # Registered modules
-admin.site.register(servertype)
-admin.site.register(center)
-admin.site.register(bladeinfo)
-admin.site.register(bladechassis)
-admin.site.register(esxi)
+admin.site.register(dataCenterModel)
+admin.site.register(vendorModel)
+admin.site.register(rackModel)
+admin.site.register(deviceModel)
+admin.site.register(serverModel)
+admin.site.register(serverVirtualModel)
+admin.site.register(networkModel)
