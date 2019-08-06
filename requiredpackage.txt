@@ -1,2 +1,3 @@
 pip install graphviz
+$ pip install pyparsing pydot
 python3 manage.py graph_models -a -g -o reactdj_models.png
